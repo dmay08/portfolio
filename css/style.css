@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+hr {
+    margin: 0;
+}
+
+.responsive {
+    width: 100%;
+}
+
+nav {
+    width: 100vw;
+    height: 5vh;
+    min-height: 40px;
+    display: flex; 
+    justify-content: space-between;
+    background-color: rgb(60, 60, 60);
+}
+
+nav p {
+    color: rgb(150, 150, 150);
+}
+
+.nav-items {
+    width: 200px;
+    align-items: center;
+    display: flex;
+    padding: 0 10px;
+}
+
+#nav-2 {
+    justify-content: space-between;
+}
+
+.main {
+    height: 95vh;
+    background: #C9CCD3;
+    background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0.79) 0%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: lighten;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#name-wrap, #about-me {
+    text-align: center;
+}
+
+#name-wrap h1 {
+    font-size: 70px; 
+    color: rgb(60, 60, 60);
+}
+
+#name-wrap h2 {
+    font-size: 40px;
+    color: rgb(100, 100, 100);
+}
+
+#about-me-wrap {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+#about-me {
+    min-height: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-me p {
+    font-size: 16px;
+    padding: 0 40px;
+}
+
+#work-title {
+    height: 10vh;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#my-work-wrap {
+    /* height: 90vh; */
+    background: rgb(247, 247, 247);
+}
+
+#my-work-wrap h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.projects {
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.squares {
+    text-align: center;
+}
+
+#left-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#right-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.flex-wrap, .image-wrap {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    box-shadow: 0 0 5px 2px rgba(0,0,0,.20);
+}
+
+
+
+
+/* space between for entire div for each 'work' item
+
+/* in ABOUT section, upload a couple of my designs!! like 'jessezelay' green portfolio does
