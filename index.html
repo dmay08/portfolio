@@ -16,9 +16,9 @@
             <p>DM</p>
         </div>
         <div class="nav-items" id="nav-2">
-            <p>About</p>
-            <p>Work</p>
-            <p>Contact</p>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </div>
     </nav>
     <div class="main">
@@ -29,7 +29,7 @@
     </div>
     <div id="about-me-wrap">
         <div id="about-me">
-            <h1>About me...</h1>
+            <h1 id="about">About me...</h1>
             <p>I'm a full-stack web developer with a passion 
                 for art and science. Coding allows me to 
                 combine my love of design with the technical 
@@ -46,18 +46,18 @@
             </p>
         </div>
     </div>
-    <div id="my-work-wrap">
-        <div id="work-title">
-            <h1>My work...</h1>
+    <div id="my-project-wrap">
+        <div id="project-title">
+            <h1 id="projects">My projects...</h1>
         </div>
+        <hr/>
 
         <div class="projects">
             <div class="flex-wrap">
                 <div class="squares" id="left-wrap">
-                    <h3>Ask a Med Student</h3>
-                    <p>Technologies used:</p>
-                    <p>HTML | CSS | JavaScript |</p>
-                    <p>Mongoose | Express | React | NodeJS</p>
+                    <h2>Ask a Med Student</h2>
+                    <p>An online platform designed to connect students interested in medical school with current medical students. Users can submit questions and medical students can respond to those questions for the submitters to see.</p>
+                    <p>HTML | CSS | JavaScript | Mongoose | Express | React | NodeJS</p>
                     <br/>
                     <section>
                         <a class="button" href="https://github.com/dmay08/ask-a-med-student">View Code</a>
@@ -71,18 +71,22 @@
                 </div>
             </a>
         </div>
-        <hr/>
 
         <div class="projects">
-            <div class="image-wrap">
-                <img src="https://i.imgur.com/3Ug7Xsf.jpg" height=328 width=500>
-            </div>
+            <a href="https://fizzquizz.herokuapp.com">
+                <div class="image-wrap">
+                    <img src="https://i.imgur.com/3Ug7Xsf.jpg" height=328 width=500>
+                </div>
+            </a>
+            </a>
             <div class="flex-wrap">
                 <div class="squares" id="right-wrap">
-                    <h3>The Fizz Quizz</h3>
-                    <p>Technologies used:</p>
-                    <p>HTML | CSS | JavaScript |</p>
-                    <p>Mongoose | Express | NodeJS</p>
+                    <h2>The Fizz Quizz</h2>
+                    <p>The world’s first hot-potato-style-trivia-drinking-game! 
+                        Two teams face off to answer as many trivia questions as 
+                        possible before the timer runs out. Choose a wrong answer? 
+                        Drink! Timer runs out while you’re holding the phone? Drink!</p>
+                    <p>HTML | CSS | JavaScript | Mongoose | Express | NodeJS</p>
                     <br/>
                     <section>
                         <a class="button" href="https://github.com/dmay08/fizz-quiz">View Code</a>
@@ -91,13 +95,14 @@
                 </div>
             </div>
         </div>
-        <hr/>
 
         <div class="projects">
             <div class="flex-wrap">
                 <div class="squares" id="left-wrap">
-                    <h3>PINK Desert Clothing Co.</h3>
-                    <p>Technologies used:</p>
+                    <h2>PINK Desert Clothing Co.</h2>
+                    <p>An online storefront for a t-shirt company. Visitors can sign 
+                        up and login in order to browse products, view product detail 
+                        pages, and add or remove products to & from a shopping cart.</p>
                     <p>HTML | CSS | Python | Django</p>
                     <br/>
                     <section>
@@ -106,20 +111,23 @@
                     </section>
                 </div>
             </div>
-            <div class="image-wrap">
-                <img src="https://i.imgur.com/LaRASjZ.png" height=328 width=500>
-            </div>
+            <a href="https://lit-brushlands-64189.herokuapp.com/">
+                <div class="image-wrap">
+                    <img src="https://i.imgur.com/LaRASjZ.png" height=328 width=500>
+                </div>
+            </a>
         </div>
-        <hr/>
 
         <div class="projects" >
-            <div class="image-wrap">
-                <img src="https://i.imgur.com/Nhs5HgU.png" height=328 width=500>
-            </div>
+            <a  href="https://dmay08.github.io/hangman/">
+                <div class="image-wrap">
+                    <img src="https://i.imgur.com/Nhs5HgU.png" height=328 width=500>
+                </div>
+            </a>
             <div class="flex-wrap">
                 <div class="squares" id="right-wrap">
-                    <h3>Danny's Hangman</h3>
-                    <p>Technologies used:</p>                
+                    <h2>Danny's Hangman</h2>
+                    <p>Danny's Hangman is a one-player game based on the traditional two-player hangman game.</p>                
                     <p>HTML | CSS | JavaScript</p> 
                     <br/> 
                     <section>
@@ -129,9 +137,18 @@
                 </div>
             </div>
         </div>
-        <hr/>
 
+        <div id="skills">
+            <h1>Skills...</h1>
+            <h3>HTML5 | CSS3 | JavaScript | Python | Django | Express.js |
+                jQuery | NodeJS | React | Mongoose | MongoDB | PostgreSQL | 
+                NoSQL | AWS | Boostrap | Socket.io | Git | OAuth | Slack | Heroku
+            </h3>
+        </div>
+    </div>
 
+    <div id="contact">
+        <h1>Contact...</h1>
     </div>
     
 </body>

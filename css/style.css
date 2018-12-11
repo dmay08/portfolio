@@ -4,7 +4,7 @@ body {
 }
 
 hr {
-    margin: 0;
+    width: 150px;
 }
 
 .responsive {
@@ -20,8 +20,9 @@ nav {
     background-color: rgb(60, 60, 60);
 }
 
-nav p {
+nav a {
     color: rgb(150, 150, 150);
+    text-decoration: none;
 }
 
 .nav-items {
@@ -66,8 +67,7 @@ nav p {
 }
 
 #about-me {
-    min-height: 100%;
-    max-width: 500px;
+    max-width: 500px;   /* ------ FIX W/ MEDIA QUERY ------- */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,7 +78,7 @@ nav p {
     padding: 0 40px;
 }
 
-#work-title {
+#project-title {
     height: 10vh;
     padding-top: 60px;
     display: flex;
@@ -86,12 +86,12 @@ nav p {
     justify-content: center;
 }
 
-#my-work-wrap {
+#my-project-wrap {
     /* height: 90vh; */
     background: rgb(247, 247, 247);
 }
 
-#my-work-wrap h1 {
+#my-project-wrap h1 {
     text-align: center;
     margin: 0;
 }
@@ -103,7 +103,8 @@ nav p {
 }
 
 .squares {
-    text-align: center;
+    /* text-align: center; */
+    width: 30vw;
 }
 
 #left-wrap {
@@ -116,6 +117,7 @@ nav p {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    text-align: right;
 }
 
 .flex-wrap, .image-wrap {
@@ -147,9 +149,22 @@ section {
     justify-content: space-between;
 }
 
+#skills {
+    height: 50vh;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    padding: 0 100px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#skills h3 {
+    font-weight: 500;
+}
 
 
-
-/* space between for entire div for each 'work' item
+/* space between for entire div for each 'project' item
 
 /* in ABOUT section, upload a couple of my designs!! like 'jessezelay' green portfolio does
