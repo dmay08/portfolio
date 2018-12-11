@@ -164,6 +164,16 @@ section {
     font-weight: 500;
 }
 
+#contact {
+    text-align: center;
+}
+
+.fa, .email {
+    padding: 6px;
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+}
+
 
 /* space between for entire div for each 'project' item
 
