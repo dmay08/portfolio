@@ -192,14 +192,15 @@ section {
 @media screen and (max-width: 540px) {
     #about-me p {
         font-size: 12px;
-        /* padding: 0 40px; */
+        padding: unset;
     }
 }
 
 @media screen and (max-width: 320px) {
     #about-me p {
         font-size: 8px;
-        /* padding: 0 40px; */
+        padding: unset;
+
     }
     #about-me h1 {
         font-size: 20px;
@@ -214,7 +215,7 @@ section {
         font-size: 20px;
     }
     .projects {
-        height: 64vh;
+        height: 500px;
         flex-direction: column;
     }
     .flex-wrap {
@@ -232,6 +233,7 @@ section {
     .image-wrap, .image-box {
         width: unset;
         height: unset;
+        max-width: 350px;
     }
     .image-wrap {
         margin: 28px;
@@ -240,10 +242,26 @@ section {
         height: unset;
     }
     #project-title {
-        padding-top: unset;
+        padding-top: 20px;
     }
-    #my-project-wrap h1 {
-        font-size: 20px;
+    #my-project-wrap h1, #about {
+        font-size: 25px;
+    }
+    #about-me {
+        margin: 30px;
+    }
+    .flip-y-axis-mobile {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+    #right-wrap.squares {
+        align-items: unset;
+        text-align: unset;
+    }
+    #skills {
+        padding: 30px;
+        font-size: 12px;
+        line-height: 20px;
     }
 }
 
