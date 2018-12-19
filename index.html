@@ -7,20 +7,27 @@
     <title>Danny's Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link href="css/hover.css" rel="stylesheet" media="all"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <script src="js/app.js" defer></script>
 </head>
 <body>
-    <nav>
-        <div class="nav-items">
-            <p>DM</p>
-        </div>
-        <div class="nav-items" id="nav-2">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </div>
+    <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+        <a href="#" class="logo">DM</a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="#about" class="nav-links">About</a>
+            </li>
+            <li>
+                <a href="#projects" class="nav-links">Projects</a>
+            </li>
+            <li>
+                <a href="#contact" class="nav-links">Contact</a>
+            </li>
+        </ul>
     </nav>
     <div class="main">
         <div id="name-wrap">
@@ -53,7 +60,7 @@
         </div>
         <hr/>
 
-        <div class="projects">
+        <div class="projects project-text-left">
             <div class="flex-wrap">
                 <div class="squares" id="left-wrap">
                     <h2>Ask a Med Student</h2>
@@ -101,7 +108,7 @@
             </div>
         </div>
 
-        <div class="projects">
+        <div class="projects project-text-left">
             <div class="flex-wrap">
                 <div class="squares" id="left-wrap">
                     <h2>PINK Desert Clothing Co.</h2>
@@ -167,8 +174,8 @@
         <h1>Contact</h1>
         <a class="email" href="mailto:dmayasich08@gmail.com">dmayasich08@gmail.com</a>
         <br></br>
-        <a class="fa fa-github" style="font-size:36px" href="https://github.com/dmay08" aria-hidden="true"></a>
-        <a class="fa fa-linkedin-square" style="font-size:36px" href="https://www.linkedin.com/in/dannymayasich/"></a>
+        <a class="fab fa-github-square" style="font-size:36px" href="https://github.com/dmay08" aria-hidden="true"></a>
+        <a class="fab fa-linkedin" style="font-size:36px" href="https://www.linkedin.com/in/dannymayasich/"></a>
         <br></br>
     </div>
     
