@@ -534,6 +534,52 @@ section {
     }
 }
 
+/* --------- fixing margin issues (temporary) -------- */
+
+@media screen and (min-width: 1360px) {
+    #left-wrap {
+        margin-left: 40px;
+    }
+    #right-wrap {
+        margin-right: 40px;
+    }
+}
+
+@media screen and (min-width: 1450px) {
+    #left-wrap {
+        margin-left: 50px;
+    }
+    #right-wrap {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (min-width: 1515px) {
+    #left-wrap {
+        margin-left: 60px;
+    }
+    #right-wrap {
+        margin-right: 60px;
+    }
+}
+
+@media screen and (min-width: 1590px) {
+    #left-wrap {
+        margin-left: 80px;
+    }
+    #right-wrap {
+        margin-right: 80px;
+    }
+}
+@media screen and (min-width: 1630px) {
+    #left-wrap {
+        margin-left: 120px;
+    }
+    #right-wrap {
+        margin-right: 120px;
+    }
+}
+
 /* space between for entire div for each 'project' item
 
 /* in ABOUT section, upload a couple of my designs!! like 'jessezelay' green portfolio does
