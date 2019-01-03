@@ -220,6 +220,11 @@ section {
     height: 100%
 }
 
+.slide-in-blurred-top {
+    width: 300px;
+    box-shadow: none;
+}
+
 
 
 /* -------- ANIMATIONS & EFFECTS ----------- */
@@ -475,6 +480,8 @@ section {
     .nav-links:hover {
         color: white;
     }
+    .slide-in-blurred-top {
+        width: 600px;
 }
 
 /* --------- fixing margin issues (temporary) -------- */
