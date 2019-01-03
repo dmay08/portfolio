@@ -377,6 +377,9 @@ section {
         font-size: 12px;
         padding: unset;
     }
+    .main {
+        height: 85vh;
+    }
 }
 
 @media screen and (max-width: 320px) {
